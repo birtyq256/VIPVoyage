@@ -14,7 +14,7 @@ nav_order: 0
 
 ## Rayan Beydoun
 
-### [Jane Dane]
+### [Rayan Beydoun]
 
 About
 : Some info about Jane
