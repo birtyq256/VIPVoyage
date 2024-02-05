@@ -8,11 +8,11 @@ nav_order: 0
 >
 > You may delete this `attention` box.
 
-# [Project Name]
+# [VipVoyage]
 
 [Project description]
 
-## Team members
+## Rayan Beydoun
 
 ### [Jane Dane]
 
