@@ -16,7 +16,7 @@ nav_order: 3
 {: toc }
 </details>
 
-## 01: [Title]
+## 01: []
 
 ### Meta
 
@@ -28,7 +28,7 @@ Updated
 
 ### Problem statement
 
-[Describe the problem to be solved or the goal to be achieved. Include relevant context information.]
+[]
 
 ### Decision
 
@@ -36,6 +36,6 @@ Updated
 
 ### Regarded options
 
-[Describe any possible design decision that will solve the problem. Assess these options, e.g., via a simple pro/con list.]
+[]
 
 ---

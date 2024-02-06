@@ -7,8 +7,10 @@ nav_order: 1
 {: .label }
 [Jane Dane]
 
-# [App structure, incl. context]
+# [Appstruktur, incl. context]
 {: .no_toc }
+
+
 
 <details open markdown="block">
 {: .text-delta }
