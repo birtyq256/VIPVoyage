@@ -12,19 +12,19 @@ Jane Dane
 
 ## Homepage 
 
-![Homepage](C:\Users\rayan\OneDrive\Dokumente\VIPVoyage\VIPVoyage-1\docs\assets\images\Homepage.png)
+![Homepage](assets\images\Homepage.png)
 
 ## Service Screen
 
-![Service Screen](C:\Users\rayan\OneDrive\Dokumente\VIPVoyage\VIPVoyage-1\docs\assets\images\InquriyScreen.pnggit )
+![Service Screen](assets\images\InquriyScreen.png)
 
 ## Send Inquiry Screen
 
-![Send Inquiry Screen](C:\Users\rayan\OneDrive\Dokumente\VIPVoyage\VIPVoyage-1\docs\assets\images\SendInquiryScreen.png)
+![Send Inquiry Screen](assets\images\SendInquiryScreen.png)
 
 ## Edit&Delete Inquiry
 
-![Edit&Delete Inquiry](C:\Users\rayan\OneDrive\Dokumente\VIPVoyage\VIPVoyage-1\docs\assets\images\Edit&DeleteInquiry.png)
+![Edit&Delete Inquiry](assets\images\Edit&DeleteInquiry.png)
 
 <details open markdown="block">
 {: .text-delta }
