@@ -12,20 +12,20 @@ Jane Dane
 
 ## Homepage 
 
-(assets/images/Homepage.png)
+![alt text](assets/images/Homepage.png)
 
 ## Service Screen
 
-(assets/images/Inquiry Screen.png)
+![alt text](assets/images/InquiryScreen.png)
 
 ## Send Inquiry Screen
 
-(assets/images/Send Inquiry Screen.png)
+![alt text](assets/images/SendInquiryScreen.png)
 
 
 ## Edit&Delete Inquiry
 
-(assets/images/Edit&Delete Inquiry.png)
+![alt text](assets/images/Edit&DeleteInquiry.png)
 
 <details open markdown="block">
 {: .text-delta }
