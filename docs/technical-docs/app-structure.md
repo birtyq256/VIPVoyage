@@ -10,21 +10,21 @@ Jane Dane
 # [Appstruktur, incl. context]
 {: .no_toc }
 
-##Homepage 
-(assets/images/Homepage.png)
+## Homepage 
 
 
-##Service Screen
-(assets/images/Inquiry.png)
+Hallo
 
-
-Send Inquiry Screen
-(assets/images/Send Inquiry.png)
+## Service Screen
 
 
 
-Edit&Delete Inquiry
-(assets/images/Edit&Delete Inquiry.png)
+## Send Inquiry Screen
+
+
+
+
+## Edit&Delete Inquiry
 
 
 
