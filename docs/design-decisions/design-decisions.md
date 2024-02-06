@@ -16,7 +16,7 @@ nav_order: 3
 {: toc }
 </details>
 
-## 01: []
+## 01: 
 
 ### Meta
 
@@ -28,14 +28,12 @@ Updated
 
 ### Problem statement
 
-[]
+
 
 ### Decision
 
-[Describe **which** design decision was taken for **what reason** and by **whom**.]
 
 ### Regarded options
 
-[]
 
 ---

@@ -5,10 +5,26 @@ nav_order: 1
 ---
 
 {: .label }
-[Jane Dane]
+Jane Dane
 
 # [Appstruktur, incl. context]
 {: .no_toc }
+
+##Homepage 
+(assets/images/Homepage.png)
+
+
+##Service Screen
+(assets/images/Inquiry.png)
+
+
+Send Inquiry Screen
+(assets/images/Send Inquiry.png)
+
+
+
+Edit&Delete Inquiry
+(assets/images/Edit&Delete Inquiry.png)
 
 
 

@@ -7,7 +7,7 @@ nav_order: 4
 {: .label }
 [Jane Dane]
 
-# [Reference documentation]
+# Reference documentation
 {: .no_toc }
 
 {: .attention }

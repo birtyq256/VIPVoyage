@@ -5,6 +5,6 @@ nav_order: 2
 ---
 
 {: .label }
-[Jane Dane]
+Jane Dane
 
 # [Technical documentation]
