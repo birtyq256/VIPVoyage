@@ -16,11 +16,11 @@ Jane Dane
 
 ## Service Screen
 
-(assets/images/Inquiry.png)
+(assets/images/Inquiry Screen.png)
 
 ## Send Inquiry Screen
 
-(assets/images/Send Inquiry.png)
+(assets/images/Send Inquiry Screen.png)
 
 
 ## Edit&Delete Inquiry
