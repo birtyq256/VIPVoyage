@@ -10,21 +10,6 @@ Jane Dane
 # [Appstruktur, incl. context]
 {: .no_toc }
 
-## Homepage 
-
-![Homepage](assets\images\Homepage.png)
-
-## Service Screen
-
-![Service Screen](assets\images\InquriyScreen.png)
-
-## Send Inquiry Screen
-
-![Send Inquiry Screen](assets\images\SendInquiryScreen.png)
-
-## Edit&Delete Inquiry
-
-![Edit&Delete Inquiry](assets\images\Edit&DeleteInquiry.png)
 
 <details open markdown="block">
 {: .text-delta }
