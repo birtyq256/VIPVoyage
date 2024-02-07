@@ -35,13 +35,13 @@ Es gibt Textfelder für die Eingabe des Ankunftsdatums, des Abreisedatums, der A
 ![Edit&Delete Inquiry](assets\images\Edit&DeleteInquiry.png)
 Auf diesem Bildschirm können Benutzer ihre Anfragen verwalten.
 
-## Tabelle mit Anfragen:
+### Tabelle mit Anfragen:
 
 Spalte "#" (ID der Anfrage): Hier wird eine eindeutige Nummer jeder Anfrage aufgeführt, die als Identifikationsnummer dient, um die Anfragen zu unterscheiden.
 Spalte "Inquiry" (Art der Anfrage): Diese Spalte zeigt die Art der Dienstleistung an, wie z.B. "Helicopter", "Yacht" und "Villa".
 Spalte "Status" (Status der Anfrage): Hier wird der aktuelle Status jeder Anfrage angezeigt, "Sent" (gesendet), "In Progress" (in Bearbeitung) und "Complete" (abgeschlossen).
 
-## Bearbeitungs- und Löschfunktionen:
+### Bearbeitungs- und Löschfunktionen:
 
 Edit Button (Bearbeiten): Dieser Button ermöglicht es dem Benutzer, eine Anfrage zu bearbeiten. Wenn der Benutzer auf diesen Button klickt, wird er zum Formular geführt, in dem er die Details seiner Anfrage ändern kann.
 Delete Button (Löschen): Mit diesem Button kann der Benutzer eine Anfrage aus der Liste löschen.
