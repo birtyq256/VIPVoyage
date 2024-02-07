@@ -4,7 +4,7 @@ nav_order: 3
 ---
 
 {: .label }
-[Jane Dane]
+Jane Dane
 
 {: .no_toc }
 
@@ -16,8 +16,6 @@ nav_order: 3
 </details>
 
 ## 01: Service Screen
-
-### Meta
 
 Status
 : **Decided** 
@@ -41,8 +39,6 @@ Con: Bietet nicht die gleiche visuelle Anziehungskraft und kann weniger einladen
 
 ## 02: Inquiry Form Screen
 
-### Meta
-
 Status
 : **Decided** 
 
@@ -58,8 +54,6 @@ Benutzer, benötigen eine klare und einfache Möglichkeit, ihre Präferenzen und
 Einführung eines Inquiry Form Screens, der einen klaren und direkten Weg bietet, persönliche Daten und Reisepräferenzen einzugeben. Der Hintergrund des Bildschirms zeigt eine atemberaubende Aussicht auf Mykonos, was die Exklusivität und Attraktivität des Ziels unterstreicht.
 
 ## 03: Service Selection Screen
-
-### Meta
 
 Status
 : **Decided** 
