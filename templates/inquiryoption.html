@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inquiry Option</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/inquiry.css') }}">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <a href="{{ url_for('home') }}">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="VipVoyage Logo" class="logo">
+        </a>
+    </header>
+    <main class="service-container">
+        <h1>Choose the service you wish</h1>
+        <div class="options" id="1:14">
+            <div class="accomandation" id="Ebs5WhXvzNut7XeJG8byjT">
+                <a href="{{ url_for('inquiryform_a') }}">
+                    <img class="hotel" src="{{ url_for('static', filename='images/hotel.jpg') }}" id="1:8" alt="Hotel"/>
+                </a>
+                <a href="{{ url_for('inquiryform_a') }}">
+                    <img class="villa" src="{{ url_for('static', filename='images/villa.jpg') }}" id="1:9" alt="Villa"/>
+                </a>
+            </div>
+       <div class="transportation" id="Ebs5hn3ojQjg2SNC3Vu4W1">
+    <a href="{{ url_for('inquiryform_t') }}">
+        <img class="yacht" src="{{ url_for('static', filename='images/yacht.jpeg') }}" id="1:7" alt="Yacht"/>
+    </a>
+    <a href="{{ url_for('inquiryform_t') }}">
+        <img class="helicopter" src="{{ url_for('static', filename='images/helikopter.jpg') }}" id="1:4" alt="Helicopter"/>
+    </a>
+    <a href="{{ url_for('inquiryform_t') }}">
+        <img class="car" src="{{ url_for('static', filename='images/auto.jpg') }}" alt="Auto" id="1:3"/>
+    </a>
+</div>
+
+    </main>
+</body>
+</html>
