@@ -5,7 +5,13 @@ nav_order: 4
 ---
 
 {: .label }
-[Jane Dane]
+[Lana]
+
+{: .label }
+[Rayan]
+
+{: .label }
+[Birte]
 
 # [Summary of individual contributions]
 {: .no_toc }
@@ -17,14 +23,22 @@ nav_order: 4
 {: toc }
 </details>
 
-## [Jane Dane]
+## [Lana]
 
 Contributions
-: Jane's first contribution
-: Jane's second contribution
+: UI Designs mit Sketch getstaltet
+: Home.html & home.css implementiert
+: InquiryOption.html & Inquiry.css implementiert
+: Pflegen der docs
+
+## [Rayan]
+
+Contributions
+: Joe's first contribution
+: Joe's second contribution
 : ...
 
-## [Joe Doe]
+## [Birte]
 
 Contributions
 : Joe's first contribution
