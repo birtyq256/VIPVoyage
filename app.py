@@ -18,7 +18,6 @@ def login():
         password = request.form['password']
         if username == ADMIN_USERNAME and password == ADMIN_PASSWORD:
             session['admin_logged_in'] = True
-            flash('Erfolgreich eingeloggt.')
             return redirect(url_for('booking_overview'))  # Geändert zu 'booking_overview'
         else:
             flash('Falscher Benutzername oder Passwort. Bitte versuchen Sie es erneut.')

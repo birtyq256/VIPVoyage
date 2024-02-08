@@ -6,20 +6,28 @@ nav_order: 0
 
 Das Projekt "VIP Voyage" ist eine Webanwendung für individuelle Buchungsanfragen, die speziell Touristen in Mykonos anspricht, die Wert auf Privatsphäre und hohen Standard legen. Die Anwendung zielt darauf ab, den Buchungsprozess durch einen persönlichen "Booker", der 24/7 verfügbar ist, zu vereinfachen. Benutzer können Anfragen stellen und erhalten innerhalb von 24 Stunden personalisierte Angebote. Die Anwendung legt Wert auf eine einfache und intuitive Nutzeroberfläche, schnellen Zugang zu Angeboten und ein diskretes, elegantes Design.
 
-## Rayan Beydoun, Lana Karout, Birte Reich
+{: .label }
+Rayan Beydoun
+
+{: .label }
+Birte Reich
+
+{: .label }
+Lana Karout
+
 
 ### Rayan Beydoun
 
 Aufgabe
-: 7211931673
+: Dokumentationsverwaltung und Backend-Entwicklung
 
 Matr.-Nr.
-: 1234567
+: 7211931673
 
 ### Lana Karout
 
 Aufgabe
-: Funktionalität der Web-Anwendung
+: Design, Benutzererfahrung und Frontend
 
 Matr.-Nr.
 : 77211917969
@@ -27,7 +35,7 @@ Matr.-Nr.
 ### Birte Reich
 
 Aufgabe
-:  Datenbank
+:  Datenbankmanagement
 
 Matr.-Nr.
 : 77211919569
