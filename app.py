@@ -5,6 +5,10 @@ from flask_session import Session
 from wtforms import Form, StringField, IntegerField, validators
 from flask_migrate import Migrate
 
+
+
+
+
 app = Flask(__name__)
 app.config['SESSION_TYPE'] = 'filesystem'
 app.secret_key = os.urandom(24)
@@ -77,7 +81,7 @@ def login():
         password = request.form['password']
         if username == ADMIN_USERNAME and password == ADMIN_PASSWORD:
             session['admin_logged_in'] = True
-            return redirect(url_for('booking_overview')) 
+            return redirect(url_for('overview')) 
         else:
             flash('Falscher Benutzername oder Passwort. Bitte versuchen Sie es erneut.')
     return render_template('login.html')
@@ -90,6 +94,28 @@ def booking_overview():
     # hier Logik um Buchungsanfragen aus der Datenbank zu holen
     booking_requests = []  
     return render_template('booking_overview.html', booking_requests=booking_requests)
+
+
+@app.route('/overview')
+def overview():
+    inquiries = InquiryForm.query.all()
+    return render_template('overview.html', inquiries=inquiries)
+
+@app.route('/update_status/<int:inquiry_id>', methods=['POST'])
+def update_status(inquiry_id):
+    inquiry = InquiryForm.query.get_or_404(inquiry_id)
+    status = request.form['status']
+    inquiry.status = status
+    db.session.commit()
+    return redirect(url_for('overview'))
+
+@app.route('/delete_inquiry/<int:inquiry_id>', methods=['POST'])
+def delete_inquiry(inquiry_id):
+    inquiry = InquiryForm.query.get_or_404(inquiry_id)
+    db.session.delete(inquiry)
+    db.session.commit()
+    return redirect(url_for('overview'))
+
 
 @app.route('/logout')
 def logout():
