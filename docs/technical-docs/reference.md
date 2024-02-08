@@ -66,7 +66,7 @@ Lana
 
 ---
 
-## Inquiry Form (Type A)
+## Inquiry Form (Accommodation)
 
 ### `inquiryform_a()`
 
@@ -74,7 +74,7 @@ Lana
 
 **Methods:** `GET`
 
-**Purpose:** Renders the inquiry form type Accommodation.
+**Purpose:** Renders the inquiry form Accommodation.
 
 **Sample output:**
 
@@ -82,7 +82,7 @@ Lana
 
 ---
 
-## Inquiry Form (Type T)
+## Inquiry Form (Transportation)
 
 ### `inquiryform_t()`
 
@@ -90,6 +90,6 @@ Lana
 
 **Methods:** `GET`
 
-**Purpose:** Renders the inquiry form type Transportation.
+**Purpose:** Renders the inquiry form Transportation.
 
 **Sample output:**
