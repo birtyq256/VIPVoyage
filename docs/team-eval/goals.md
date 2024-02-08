@@ -5,7 +5,7 @@ nav_order: 1
 ---
 
 {: .label }
-[Jane Dane]
+Lana
 
 # [Goals achieved and missed]
 {: .no_toc }
@@ -16,3 +16,15 @@ nav_order: 1
 + ToC
 {: toc }
 </details>
+
+## Achieved Goals
+
+1. Das Frontend entspricht genau unseren UI-Designs.
+2. Das Formular enthält alle geplanten Inhalte, einschließlich Funktionen aus dem Backlog.
+3. Die Datenbank funktioniert einwandfrei und die Daten lassen sich problemlos auf die Übersichtsseite übertragen.
+
+
+## Missed Goals
+
+1. Wir haben nur einen Administrator, anstelle von zwei.
+   
