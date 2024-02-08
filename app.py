@@ -4,7 +4,7 @@ app = Flask(__name__)
 app.secret_key = 'ein_sicherer_schlüssel'
 
 
-ADMIN_USERNAME = 'William.Batling'
+ADMIN_USERNAME = 'VipAgent'
 ADMIN_PASSWORD = 'VipVoyage'
 
 @app.route('/')
