@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inquiry Form - Accommodation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/inquiryform.css') }}">
+</head>
+<body>
+    <header class="site-header">
+        <a href="{{ url_for('home') }}">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="VipVoyage Logo" class="logo">
+        </a>
+        
+    </header>
+    <main class="service-container">
+        <div class="form-wrapper">
+            <h2>Our service works as simple as that:</h2>
+            <p>Submit your inquiry, and within 24 hours, we'll respond with personalized offers.<br>Experience a service customized just for you.</p>
+<form action="{{ url_for('submit_inquiry_a') }}" method="post">
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+                <input type="tel" id="phone" name="phone" placeholder="Your phone number" required>
+                <input type="date" id="arrival" name="arrival" placeholder="When do you want to arrive?" required>
+                <input type="date" id="departure" name="departure" placeholder="When do you want to depart?" required>
+                <input type="number" id="amount" name="amount" placeholder="How many people traveling?" required>
+                <input type="text" id="budget" name="budget" placeholder="Your Budget in €" required>
+                <textarea id="requests" name="requests" placeholder="Any Special Requests ? "></textarea>
+                <div class="buttons">
+                    <button type="reset" onclick="window.history.back();" >Cancel</button>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
