@@ -12,8 +12,7 @@ nav_order: 2
 
 ## Homepage 
 
-![Homepage](/assets/images/Homepage.png)
-
+![Homepage](docs/assets/images/Homepage.png)
 Über den Button mit der Aufschrift "Send Inquiry" stellt man eine Anfrage zum benötigten Service.
 
 ## Service Screen
