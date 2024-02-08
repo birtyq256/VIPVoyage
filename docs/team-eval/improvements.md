@@ -5,9 +5,9 @@ nav_order: 2
 ---
 
 {: .label }
-[Lana]
+Lana
 
-# [How we would improve next time]
+# How we would improve next time
 {: .no_toc }
 
 

@@ -5,81 +5,74 @@ nav_order: 4
 ---
 
 {: .label }
-[Jane Dane]
+Lana
 
 # Reference documentation
 {: .no_toc }
-
-{: .attention }
-> This page collects internal functions, routes with their functions, and APIs (if any).
-> 
-> See [Uber](https://developer.uber.com/docs/drivers/references/api) or [PayPal](https://developer.paypal.com/api/rest/) for exemplary high-quality API reference documentation.
->
-> You may delete this `attention` box.
 
 <details open markdown="block">
 {: .text-delta }
 <summary>Table of contents</summary>
 + ToC
 {: toc }
-</details>
+</details> 
 
-## [Section / module]
+## Home Page
 
-### `function_definition()`
+### `home()`
 
-**Route:** `/route/`
-
-**Methods:** `POST` `GET` `PATCH` `PUT` `DELETE`
-
-**Purpose:** [Short explanation of what the function does and why]
-
-**Sample output:**
-
-[Show an image, string output, or similar illustration -- or write NONE if function generates no output]
-
----
-
-## [Example, delete this section] Show to-do lists
-
-### `get_lists()`
-
-**Route:** `/lists/`
+**Route:** `/`
 
 **Methods:** `GET`
 
-**Purpose:** Show all to-do lists.
+**Purpose:** Renders the home page of VIP Voyage.
 
 **Sample output:**
 
-![get_lists() sample](../assets/images/fswd-intro_00.png)
+![Home Page](../assets/images/Home-Page.png)
 
 ---
 
-### `get_list_todos(list_id)`
+## Inquiry Option
 
-**Route:** `/lists/<int:list_id>`
+### `inquiry_option()`
+
+**Route:** `/inquiryoption`
 
 **Methods:** `GET`
 
-**Purpose:** Retrieve all to-do items of to-do list with ID `list_id` from database and present to user.
+**Purpose:** Renders the inquiry option page for VIP Voyage.
 
 **Sample output:**
 
-![get_list_todos() sample](../assets/images/fswd-intro_02.png)
+![Inquiry Option Page](../assets/images/inquiryoption-Page.png)
 
 ---
 
-## [Example, delete this section] Insert sample data
+## Inquiry Form (Type A)
 
-### `run_insert_sample()`
+### `inquiryform_a()`
 
-**Route:** `/insert/sample`
+**Route:** `/inquiryform-a`
 
 **Methods:** `GET`
 
-**Purpose:** Flush the database and insert sample data set
+**Purpose:** Renders the inquiry form type A for VIP Voyage.
 
 **Sample output:**
 
-Browser shows: `Database flushed and populated with some sample data.`
+
+
+---
+
+## Inquiry Form (Type T)
+
+### `inquiryform_t()`
+
+**Route:** `/inquiryform-t`
+
+**Methods:** `GET`
+
+**Purpose:** Renders the inquiry form type T for VIP Voyage.
+
+**Sample output:**

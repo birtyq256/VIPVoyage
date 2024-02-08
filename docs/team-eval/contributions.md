@@ -5,15 +5,15 @@ nav_order: 4
 ---
 
 {: .label }
-[Lana]
+Lana
 
 {: .label }
-[Rayan]
+Rayan
 
 {: .label }
-[Birte]
+Birte
 
-# [Summary of individual contributions]
+# Summary of individual contributions
 {: .no_toc }
 
 <details open markdown="block">
@@ -23,7 +23,7 @@ nav_order: 4
 {: toc }
 </details>
 
-## [Lana]
+## Lana
 
 Contributions
 : UI Designs mit Sketch getstaltet
@@ -31,14 +31,14 @@ Contributions
 : InquiryOption.html & Inquiry.css implementiert
 : Pflegen der docs
 
-## [Rayan]
+## Rayan
 
 Contributions
 : Joe's first contribution
 : Joe's second contribution
 : ...
 
-## [Birte]
+## Birte
 
 Contributions
 : Joe's first contribution

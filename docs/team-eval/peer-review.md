@@ -5,13 +5,13 @@ nav_order: 3
 ---
 
 {: .label }
-[Lana]
+Lana
 
 {: .label }
-[Rayan]
+Rayan
 
 {: .label }
-[Birte]
+Birte
 
 # [Peer review]
 {: .no_toc }
@@ -23,7 +23,7 @@ nav_order: 3
 {: toc }
 </details>
 
-## [Lana] - review 1
+## Lana - review 1
 
 ### My observation (Wahrnehmung)
 
@@ -39,7 +39,7 @@ Beim nächsten Mal würde ich empfehlen, früher zu beginnen und konsistent jede
 
 {: toc }
 
-## [Lana] - review 2
+## Lana - review 2
 
 ### My observation (Wahrnehmung)
 
@@ -55,7 +55,7 @@ Beim nächsten Mal würde ich mich zunächst sorgfältig mit der gesamten Materi
 
 {: toc }
 
-## [Rayan] - review 1
+## Rayan - review 1
 
 ### My observation (Wahrnehmung)
 
@@ -71,7 +71,7 @@ Beim nächsten Mal würde ich mich zunächst sorgfältig mit der gesamten Materi
 
 {: toc }
 
-## [Birte] - review 1
+## Birte - review 1
 
 ### My observation (Wahrnehmung)
 
