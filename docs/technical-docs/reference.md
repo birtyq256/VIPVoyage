@@ -41,11 +41,11 @@ Lana
 
 **Methods:** `GET`
 
-**Purpose:** Renders the inquiry option page for VIP Voyage.
+**Purpose:** Renders the inquiry option page.
 
 **Sample output:**
 
-![Inquiry Option Page](../assets/images/inquiryoption-Page.png)
+![Inquiry Option Page](../assets/images/InquiryOption-Page.png)
 
 ---
 
@@ -57,7 +57,7 @@ Lana
 
 **Methods:** `GET`
 
-**Purpose:** Renders the inquiry form type A for VIP Voyage.
+**Purpose:** Renders the inquiry form type Accommodation.
 
 **Sample output:**
 
@@ -73,6 +73,6 @@ Lana
 
 **Methods:** `GET`
 
-**Purpose:** Renders the inquiry form type T for VIP Voyage.
+**Purpose:** Renders the inquiry form type Transportation.
 
 **Sample output:**
