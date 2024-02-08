@@ -29,7 +29,24 @@ Lana
 
 **Sample output:**
 
-![Home Page](../assets/images/Home-Page.png)
+![Home Page](../assets/images/HomePage.png)
+
+---
+
+## Login
+
+### `login()`
+
+**Route:** `/login`
+
+**Methods:** `GET`, `POST`
+
+**Purpose:** Renders the login page and processes login attempts. On successful login, redirects to the booking overview page. On failure, flashes an error message.
+
+**Sample output:**
+
+![Login Page](../assets/images/LoginPage.png)
+
 
 ---
 
@@ -45,7 +62,7 @@ Lana
 
 **Sample output:**
 
-![Inquiry Option Page](../assets/images/InquiryOption-Page.png)
+![Inquiry Option Page](../assets/images/InquiryOption.png)
 
 ---
 
