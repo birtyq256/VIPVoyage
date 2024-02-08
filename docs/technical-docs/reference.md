@@ -45,7 +45,7 @@ Lana
 
 **Sample output:**
 
-![Inquiry Option Page](../assets/images/InquiryOption-Page.png)
+![Inquiry Option Page](docs/assets/images/InquiryOption-Page.png)
 
 ---
 
