@@ -1,0 +1,62 @@
+/* login.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../images/background.jpg'); /* Pfad ggf. anpassen */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 350px; /* Breite der Login-Box */
+}
+
+h2 {
+    text-align: center;
+    color: #123F61; /* Farbe des Titels wie auf dem Home-Screen */
+    font-family: 'Skia-Regular_Bold', sans-serif;
+    margin-bottom: 20px; /* Abstand unter dem Titel */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px; /* Größere Schriftart für bessere Lesbarkeit */
+}
+
+button {
+    padding: 10px;
+    background-color: #123F61; /* Farbe des Buttons wie auf dem Home-Screen */
+    color: white;
+    border: none;
+    border-radius: 25px; /* Abgerundete Ecken wie beim Inquiry-Button */
+    cursor: pointer;
+    font-family: 'Skia-Regular', sans-serif;
+    font-size: 18px; /* Größere Schriftart für den Button-Text */
+    margin-top: 20px; /* Abstand über dem Button */
+    transition: background-color 0.3s ease; /* Übergangseffekt */
+}
+
+button:hover {
+    background-color: #0a2c42; /* Dunklere Farbe beim Hover */
+}
