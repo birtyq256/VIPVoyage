@@ -4,7 +4,7 @@ nav_order: 4
 ---
 
 {: .label }
-[Jane Dane]
+[Lana]
 
 # [User evaluation]
 {: .no_toc }
@@ -24,19 +24,24 @@ Status
 : **Work in progress** - Done - Obsolete
 
 Updated
-: DD-MMM-YYYY
+: 08-02-2024
 
 ### Goal
 
-[Describe the goal of this evaluation, for example as a research question like: "How long does it take to register a new account and what is the drop-out rate?"]
+Das Ziel dieser Evaluation ist es, die Benutzerfreundlichkeit des Formulars zur Eingabe der Daten zu bewerten. Speziell soll herausgefunden werden, ob das Formular klar und verständlich ist und ob Benutzer nach dem Ausfüllen des Formulars eine angemessene Bestätigung erhalten.
 
 ### Method
 
-[Describe how you proceed to achieve your evaluation goal. Be as specific as possible: others should be able to replicate your evaluation by following the description on this section.]
+1. Testnutzer: Zufällig ausgewählte Nutzer, die potenzielle Kunden von "Vip Voyage" repräsentieren.
+2. Durchführung: Die ausgewählten Nutzer werden gebeten, das Formular auszufüllen. Während des Ausfüllens werden sie gebeten, laut zu denken und Rückmeldungen zu geben. Nach dem Absenden des Formulars erhalten sie eine Bestätigung und werden zur Startseite der Website zurückgeleitet.
+3. Daten sammeln: Die Zeit, die für das Ausfüllen des Formulars benötigt wird, wird gemessen, ebenso wie die Häufigkeit von Fehlern oder Unklarheiten beim Ausfüllen des Formulars.
+4. Feedback: Nach Abschluss des Tests werden den Nutzern Fragen gestellt, um ihr allgemeines Feedback zum Formular und zur Bestätigungsnachricht zu sammeln.
 
 ### Results
 
-[Present the main results of your evaluation, for example: "On average, users need 3 min to register. The drop-out rate was 70%. Users that didn't complete provided the following reasons: ..."]
+Die durchschnittliche Zeit, die für das Ausfüllen des Formulars benötigt wird, beträgt X Minuten.
+X% der Benutzer hatten Schwierigkeiten beim Ausfüllen des Felds "Anzahl Personen".
+X% der Benutzer gaben an, dass die Bestätigungsnachricht klar und zufriedenstellend war.
 
 ### Implications
 

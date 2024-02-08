@@ -27,3 +27,13 @@ Unsere Zielgruppe sind wohlhabende Touristen, die nach Mykonos reisen und besond
 
 ## Das Kundenerlebnis
 Die Benutzer der Webanwendung profitieren von einer schnellen Buchungserfahrung. Sie können ihre Anfragen bequem online stellen und erhalten innerhalb kürzester Zeit maßgeschneiderte Angebote. Der persönliche Booker sorgt für eine ständige Kommunikation und individuelle Beratung, wodurch ein Gefühl von Exklusivität und Priorität vermittelt wird. Das elegante Design der Anwendung und die intuitive Benutzeroberfläche runden das hochwertige Erlebnis ab, indem sie den Benutzern ein Gefühl von Luxus und Komfort vermitteln.
+
+journey
+    title Customer Journey
+    section Send Inquiry
+      Click 'Send Inquiry' button: 2: Customer
+      Select service on Inquiry Option page: 3: Customer
+    section Fill Form
+      Enter details in Form page: 4: Customer
+    section Confirmation
+      Submit form and receive confirmation: 5: Customer
