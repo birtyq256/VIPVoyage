@@ -2,7 +2,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url('../images/background.jpg'); /* Pfad ggf. anpassen */
+    background-image: url('../images/background.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -20,14 +20,14 @@ body {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 350px; /* Breite der Login-Box */
+    width: 350px;
 }
 
 h2 {
     text-align: center;
-    color: #123F61; /* Farbe des Titels wie auf dem Home-Screen */
+    color: #123F61; 
     font-family: 'Skia-Regular_Bold', sans-serif;
-    margin-bottom: 20px; /* Abstand unter dem Titel */
+    margin-bottom: 20px; 
 }
 
 form {
@@ -41,22 +41,22 @@ input[type="password"] {
     margin: 10px 0;
     border: 1px solid #ddd;
     border-radius: 4px;
-    font-size: 16px; /* Größere Schriftart für bessere Lesbarkeit */
+    font-size: 16px; 
 }
 
 button {
     padding: 10px;
-    background-color: #123F61; /* Farbe des Buttons wie auf dem Home-Screen */
+    background-color: #123F61; 
     color: white;
     border: none;
-    border-radius: 25px; /* Abgerundete Ecken wie beim Inquiry-Button */
+    border-radius: 25px; 
     cursor: pointer;
     font-family: 'Skia-Regular', sans-serif;
-    font-size: 18px; /* Größere Schriftart für den Button-Text */
-    margin-top: 20px; /* Abstand über dem Button */
-    transition: background-color 0.3s ease; /* Übergangseffekt */
+    font-size: 18px; 
+    margin-top: 20px; 
+    transition: background-color 0.3s ease; 
 }
 
 button:hover {
-    background-color: #0a2c42; /* Dunklere Farbe beim Hover */
+    background-color: #0a2c42; 
 }
