@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-/* overview.css */
-
-body {
-    background-image: url('../images/background.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    margin: 0; /* Zur Entfernung des Standardseitenabstands */
-    padding: 0; /* Zur Entfernung des Standardseitenabstands */
-}
-=======
 
     body {
         background-color: #123F61; 
@@ -20,7 +7,6 @@ body {
         padding: 0;
     }
 
->>>>>>> 338613669785a4b94604f754bbd002ad0e8cbeb0
 
 .site-header {
     background-color: #123F61;
@@ -107,25 +93,23 @@ body {
     margin-right: 0;
 }
 
-/* Stil für die Übersichtstabelle */
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 20px; /* Abstand zwischen der Überschrift und der Tabelle */
+    margin-top: 20px; 
 }
 
 th, td {
     padding: 10px;
     text-align: left;
-    border-bottom: 1px solid #ddd; /* Trennlinie zwischen den Zeilen */
-}
+    border-bottom: 1px solid #ddd; 
 
 th {
-    background-color: #f2f2f2; /* Hintergrundfarbe für Überschriften */
+    background-color: #f2f2f2; 
 }
 
 tr:hover {
-    background-color: #f5f5f5; /* Hervorhebung beim Hovern über eine Zeile */
+    background-color: #f5f5f5; 
 }
 
 button {
@@ -136,5 +120,6 @@ button {
 }
 
 button:hover {
-    text-decoration: underline; /* Unterstreichen beim Hovern über den Button */
+    text-decoration: underline; 
+}
 }
