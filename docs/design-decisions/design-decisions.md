@@ -25,7 +25,7 @@ Updated
 
 ### Problem statement
 
-Wir brauchen für unsere Flask-App eine einfache, flexible Art, mit der Datenbank zu arbeiten. Für unsere Flask-basierte Webanwendung benötigen wir eine effiziente, flexible und skalierbare Lösung zur Interaktion mit der Datenbank. Diese Lösung sollte schnell gehen, leicht zu warten sein und einfach sein, bei Bedarf die Datenbank zu wechseln.
+Wir brauchen für unsere Flask-App eine einfache, flexible Art, mit der Datenbank zu arbeiten. Diese Lösung sollte schnell gehen, leicht zu warten sein und einfach sein, bei Bedarf die Datenbank zu wechseln.
 
 ### Decision
 
