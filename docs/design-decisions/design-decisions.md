@@ -59,7 +59,7 @@ Für die Einreichung von Buchungsanfragen benötigen wir eine effiziente, sicher
 ### Decision
 Wir haben uns für die Verwendung von WTForms entschieden, um Formulare leicht zu erstellen, zu validieren und zu verarbeiten. 
 
-## Regarded Options
+### Regarded Options
 
 HTML-Formulare: 
 Pro: Volle Kontrolle über das Markup; keine zusätzlichen Abhängigkeiten
@@ -67,7 +67,7 @@ Con: Manuelle Implementierung von Validierungen; erhöhter Aufwand bei der Siche
 
 Entscheidung getroffen von: https://github.com/birtyq256
 
-## 03: Bootstrap für den Anfragen-Übersicht
+## 03: Bootstrap für die Anfragen-Übersicht
 
 Status
 : Work in progress - **Decided**  - Obsolete
@@ -92,6 +92,8 @@ Con: Einschränkungen in der Design-Flexibilität, wenn wir sehr spezifische Des
 + Nur CSS: 
 Pro: Gibt uns vollständige Kontrolle über das Design
 Con: Höherer Aufwand bei der Entwicklung responsiver Designs; erhöhte Komplexität und Zeitaufwand
+
+Entscheidung getroffen von: https://github.com/LanaKrt
 
 + Foundation: 
 Pro: Ähnlich wie Bootstrap mit einem Fokus auf professionelle Anwendung; bietet auch ein umfangreiches Framework  Con: Lernkurve; nicht so bekannt, was zu weniger Community-Unterstützung führen kann
