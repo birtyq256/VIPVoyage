@@ -1,54 +1,80 @@
-<!-- overview.html -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inquiries Overview</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #123F61;
+            color: white; /
+        }
+
+        .bg-navbar {
+            background-color: #123F61 !important;
+        }
+
+        .table th, .table td { 
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <h1>Inquiries Overview</h1>
-    <table>
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Phone</th>
-                <th>Arrival</th>
-                <th>Departure</th>
-                <th>Amount</th>
-                <th>Budget</th>
-                <th>Status</th>
-                <th>Action</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for inquiry in inquiries %}
-            <tr>
-                <td>{{ inquiry.name }}</td>
-                <td>{{ inquiry.phone }}</td>
-                <td>{{ inquiry.arrival }}</td>
-                <td>{{ inquiry.departure }}</td>
-                <td>{{ inquiry.amount }}</td>
-                <td>{{ inquiry.budget }}</td>
-                <td>
-                    <form action="{{ url_for('update_status', inquiry_id=inquiry.id) }}" method="post">
-                        <select name="status">
-                            <option value="new">New</option>
-                            <option value="in_progress">In Progress</option>
-                            <option value="completed">Completed</option>
-                        </select>
-                        <button type="submit">Update</button>
-                    </form>
-                </td>
-                <td>
-                    <form action="{{ url_for('delete_inquiry', inquiry_id=inquiry.id) }}" method="post">
-                        <button type="submit">Delete</button>
-                    </form>
-                </td>
-            </tr>
-            {% endfor %}
-        </tbody>
-    </table>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="{{ url_for('home') }}">
+                <img src="{{ url_for('static', filename='images/logo.png') }}" alt="VipVoyage Logo" height="60" class="d-inline-block align-top">
+            </a>
+    </nav>
+    <h1 style="color: white; text-align: center; margin-top: 5px;">Inquiries Overview</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <table class="table table-sm">
+                    <thead class="thead-light">
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Phone</th>
+                            <th scope="col">Arrival</th>
+                            <th scope="col">Departure</th>
+                            <th scope="col">Amount</th>
+                            <th scope="col">Budget</th>
+                            <th scope="col">Status</th>
+                            <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for inquiry in inquiries %}
+                        <tr>
+                            <td>{{ inquiry.name }}</td>
+                            <td>{{ inquiry.phone }}</td>
+                            <td>{{ inquiry.arrival }}</td>
+                            <td>{{ inquiry.departure }}</td>
+                            <td>{{ inquiry.amount }}</td>
+                            <td>{{ inquiry.budget }}</td>
+                            <td>
+                                <form action="{{ url_for('update_status', inquiry_id=inquiry.id)  }}" method="post" class="form-inline">
+                                    <select name="status" class="form-control form-control-sm mr-1">
+                                        <option value="new">New</option>
+                                        <option value="in_progress">In Progress</option>
+                                        <option value="completed">Completed</option>
+                                    </select>
+                                    <button type="submit" class="btn btn-primary btn-sm">Update</button>
+                                </form>
+                            </td>
+                            <td>
+                                <form action="{{ url_for('delete_inquiry', inquiry_id=inquiry.id) }}" method="post">
+                                    <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                                </form>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

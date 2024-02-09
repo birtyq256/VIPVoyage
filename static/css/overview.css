@@ -1,12 +1,12 @@
-body {
-    background-image: url('../images/background.jpg'); 
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-attachment: fixed; 
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
+
+    body {
+        background-color: #123F61; 
+        color: #FFFFFF; 
+        font-family: 'Arial', sans-serif; 
+        margin: 0;
+        padding: 0;
+    }
+
 
 .site-header {
     background-color: #123F61; 
