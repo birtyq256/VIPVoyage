@@ -19,15 +19,14 @@ Rayan
 
 ![Service Screen](../assets/images/UI_InquiryOption.png)
 
-Es sind vier Bilder zu sehen, die verschiedene angebotene Dienstleistungen darstellen: eine luxuriöse Villa..., eine Yacht auf dem Meer und Premium-Autos.
-Mit einem Klick auf einem Bild gelangt der Benutzer zum Formular, um die Buchungsanfrage zu stellen.
+Es sind vier Bilder zu sehen, die verschiedene angebotene Dienstleistungen darstellen: eine luxuriöse Villa, eine Yacht auf dem Meer, eine Auswahl an Premium-Automobilen und weitere Luxuserlebnisse. Ein Klick auf eines dieser Bilder führt den Nutzer zu einem Formular, um eine Buchungsanfrage zu stellen und den ersten Schritt in ein außergewöhnliches Erlebnis zu machen.
 
 ## Send Inquiry Screen
 
 ![Send Inquiry Screen](../assets/images/UI_InquiryForm.png)
 
 Auf diesem Screen ist das Formular, das Nutzer ausfüllen können, um eine Anfrage zu senden.
-Es gibt Textfelder für die Eingabe des Ankunftsdatums, des Abreisedatums, der Anzahl der Personen, des Budgets. Zwei Buttons "Cancel" und "Submit" befinden sich am unteren Rand, wobei "Submit" dazu dient, das ausgefüllte Formular abzusenden.
+Es gibt Textfelder für die Eingabe des Ankunftsdatums, des Abreisedatums, der Anzahl der Personen, des Budgets. Zwei Buttons "Cancel" und "Submit" befinden sich am unteren Rand. "Submit" dient dazu, das ausgefüllte Formular abzusenden.
 
 ## Edit&Delete Inquiry
 
