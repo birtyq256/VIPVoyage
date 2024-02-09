@@ -147,7 +147,7 @@ def inquiryform_t():
 @app.route('/submit_inquiry_a', methods=['POST'])
 def submit_inquiry_a():
     form = InquiryFormA(request.form)
-    if request.method == 'POST' :
+    if form.validate():
         new_inquiry = InquiryForm(
             name=form.name.data,
             phone=form.phone.data,
@@ -157,13 +157,13 @@ def submit_inquiry_a():
             budget=form.budget.data,
             requests=form.requests.data
         )
-
         db.session.add(new_inquiry)
         db.session.commit()
         return redirect(url_for('thank_you'))
     else:
         flash('Form validation failed. Please check the form and try again.', 'error')
         return redirect(url_for('inquiry_option_a'))
+
     
 
 @app.route('/thank_you')
