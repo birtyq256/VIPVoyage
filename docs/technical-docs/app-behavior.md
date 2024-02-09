@@ -17,38 +17,10 @@ Rayan
 {: toc }
 </details>
 
+## Main Features
 
-## Homepage 
+1. **Buchungsanfragen:** Ein Button "Send Inquiry" auf der Homesseite lädt den Nutzer ein, eine Buchungsanfrage zu stellen. Sie werden dann auf eine Seite geleitet, auf der sie den gewünschten Service auswählen können, darunter luxuriöse Villen, Yachten, Premium-Autos und weitere Luxuserlebnisse. Nach der Auswahl füllen die Nutzer ein Formular aus, das in forms.py definiert ist. Nach dem Absenden des Formulars erhalten sie eine Bestätigung. 
 
-![Homepage](../assets/images/UI_Homepage.png)
-Über den Button mit der Aufschrift "Send Inquiry" stellt man eine Anfrage zum benötigten Service.
+2. **Login-Funktion für Administratoren/Agenten:** Ein Login-Bereich, der es Administratoren oder Agenten ermöglicht, sich mit festgelegten Zugangsdaten anzumelden. Es besteht auch die Möglichkeit, sich über eine Logout-Funktion wieder abzumelden.
 
-## Service Screen
-
-![Service Screen](../assets/images/UI_InquiryOption.png)
-
-Es sind vier Bilder zu sehen, die verschiedene angebotene Dienstleistungen darstellen: eine luxuriöse Villa, eine Yacht auf dem Meer, eine Auswahl an Premium-Automobilen und weitere Luxuserlebnisse. Ein Klick auf eines dieser Bilder führt den Nutzer zu einem Formular, um eine Buchungsanfrage zu stellen und den ersten Schritt in ein außergewöhnliches Erlebnis zu machen.
-
-## Send Inquiry Screen
-
-![Send Inquiry Screen](../assets/images/UI_InquiryForm.png)
-
-Auf diesem Screen ist das Formular, das Nutzer ausfüllen können, um eine Anfrage zu senden.
-Es gibt Textfelder für die Eingabe des Ankunftsdatums, des Abreisedatums, der Anzahl der Personen, des Budgets. Zwei Buttons "Cancel" und "Submit" befinden sich am unteren Rand. "Submit" dient dazu, das ausgefüllte Formular abzusenden.
-
-## Edit&Delete Inquiry
-
-![Edit&Delete Inquiry](../assets/images/UI_Overview.png)
-Auf diesem Bildschirm können Benutzer ihre Anfragen verwalten.
-
-### Tabelle mit Anfragen:
-
-Spalte "#" (ID der Anfrage): Hier wird eine eindeutige Nummer jeder Anfrage aufgeführt, die als Identifikationsnummer dient, um die Anfragen zu unterscheiden.
-Spalte "Inquiry" (Art der Anfrage): Diese Spalte zeigt die Art der Dienstleistung an, wie z.B. "Helicopter", "Yacht" und "Villa".
-Spalte "Status" (Status der Anfrage): Hier wird der aktuelle Status jeder Anfrage angezeigt, "Sent" (gesendet), "In Progress" (in Bearbeitung) und "Complete" (abgeschlossen).
-
-### Bearbeitungs- und Löschfunktionen:
-
-Edit Button (Bearbeiten): Dieser Button ermöglicht es dem Benutzer, eine Anfrage zu bearbeiten. Wenn der Benutzer auf diesen Button klickt, wird er zum Formular geführt, in dem er die Details seiner Anfrage ändern kann.
-Delete Button (Löschen): Mit diesem Button kann der Benutzer eine Anfrage aus der Liste löschen.
-
+3. **Buchungsübersicht (Inquiries Overview):** Eine Übersichtsseite, auf der Administratoren (Agenten) alle gestellten Buchungsanfragen einsehen können. Die Übersicht zeigt detaillierte Informationen zu jeder Anfrage, wie Name, Telefonnummer, Ankunfts- und Abreisedaten, Anzahl der Gäste, Budget und den aktuellen Status. Admins können den Status der Anfrage aktualisieren und Anfragen bei Bedarf löschen.
