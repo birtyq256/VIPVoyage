@@ -15,8 +15,8 @@ nav_order: 3
   {: toc }
 </details>
 
-<span style="color:blue;">Lana</span>
-{: .label .label-blue }
+{: .label }
+Lana Karout
 
 ## Lana - Review
 
@@ -34,8 +34,8 @@ Für zukünftige Projekte wäre es ratsam, früher anzufangen und regelmäßig j
 
 ---
 
-<span style="color:blue;">Rayan</span>
-{: .label .label-blue }
+{: .label }
+Rayan Beydoun
 
 ## Rayan - Review
 
@@ -53,8 +53,8 @@ Ich empfehle für zukünftige Projekte, sich frühzeitig mit neuen Technologien 
 
 ---
 
-<span style="color:blue;">Birte</span>
-{: .label .label-blue }
+{: .label }
+Birte Reich
 
 ## Birte - Review
 
