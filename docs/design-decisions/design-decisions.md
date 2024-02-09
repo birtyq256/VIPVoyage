@@ -25,8 +25,7 @@ Updated
 
 ### Problem statement
 
-Wir brauchen für unsere Flask-App eine einfache, flexible Art, mit der Datenbank zu arbeiten. Es soll 
-Für unsere Flask-basierte Webanwendung benötigen wir eine effiziente, flexible und skalierbare Lösung zur Interaktion mit der Datenbank. Diese Lösung sollte schnell gehen, leicht zu warten sein und einfach sein, bei Bedarf die Datenbank zu wechseln.
+Wir brauchen für unsere Flask-App eine einfache, flexible Art, mit der Datenbank zu arbeiten. Für unsere Flask-basierte Webanwendung benötigen wir eine effiziente, flexible und skalierbare Lösung zur Interaktion mit der Datenbank. Diese Lösung sollte schnell gehen, leicht zu warten sein und einfach sein, bei Bedarf die Datenbank zu wechseln.
 
 ### Decision
 
@@ -40,7 +39,7 @@ Wir haben SQLAlchemy als unser Werkzeug gewählt, weil es eine objektorientierte
 | Kriterien | Plain SQL | SQLAlchemy |
 | --- | --- | --- |
 | **Fachkenntnisse** | ✔️ Direktes Wissen über SQL wird angewandt. Keine zusätzliche Abstraktionsebene, die gelernt werden muss.| ❌ Lernaufwand, um ORM-Konzepten und SQLAlchemy zu verstehen |
-| **DB Schema-Änderungen** | ❌ müssen manuell durchgeführt und im gesamten Code reflektiert werden. | ✔️ Ermöglicht einfache Schema-Migrationen durch Alembic und objektorientierte Modellierung, was die Wartung und Evolution des Schemas vereinfacht.|
+| **DB Schema-Änderungen** | ❌ müssen manuell durchgeführt und im gesamten Code reflektiert werden. | ✔️ Ermöglicht einfache Schema-Migrationen durch Alembic und objektorientierte Modellierung, was die Wartung und Evolution des Schemas vereinfacht |
 | **Datenbank-Engine-Wechsel** | ❌ Erheblicher Anpassungsaufwand, da unterschiedliche SQL-Dialekte beachtet werden müssen | ✔️ Einfacher Wechsel durch Abstraktion |
 | **Komplexität der Anwendungslogik** | ❌ erhöht die Komplexität der Anwendungslogik, da Geschäftslogik und Datenbankinteraktionen eng miteinander verknüpft sind.| ✔️ trennt Anwendungslogik und Datenbank, was zu einer saubereren und modulareren Codebasis führt. | 
 
@@ -136,5 +135,6 @@ Entwicklung eines benutzerdefinierten Authentifizierungssystems, das Benutzernam
 + Con: Erhöhter Entwicklungs- und Wartungsaufwand, erfordert sorgfältige Implementierung von Sicherheitsmaßnahmen
 
 Entscheidung getroffen von: https://github.com/rayanbeydoun12
+
 ---
 
