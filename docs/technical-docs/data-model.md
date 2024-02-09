@@ -17,9 +17,6 @@ Birte
 {: toc }
 </details>
 
-{: .download }
-> Unter diesem Link befindet sich das Ablaufdiagram.
-> [An Internal Link](/file:///Users/lanakarout/Downloads/Ablauf_VIPVOYAGE.drawio.html)
 
 ![Ablauf Diagram](../assets/images/ablauf.drawio.png)
 

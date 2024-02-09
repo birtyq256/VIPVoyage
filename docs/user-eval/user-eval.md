@@ -16,7 +16,7 @@ Lana
 {: toc }
 </details>
 
-## 01: [Title]
+## 01: Benutzerfreundlichkeit
 
 ### Meta
 
@@ -39,12 +39,12 @@ Das Ziel dieser Evaluation ist es, die Benutzerfreundlichkeit des Formulars zur 
 
 ### Results
 
-Die durchschnittliche Zeit, die für das Ausfüllen des Formulars benötigt wird, beträgt X Minuten.
-X% der Benutzer hatten Schwierigkeiten beim Ausfüllen des Felds "Anzahl Personen".
-X% der Benutzer gaben an, dass die Bestätigungsnachricht klar und zufriedenstellend war.
+Die durchschnittliche Zeit, die für das Ausfüllen des Formulars benötigt wird, beträgt 1-2 Minuten.
+10% der Benutzer hatten Schwierigkeiten beim Ausfüllen des Felds "Arrival"/"Depature". Es wurde mit einem Bestätigungs-Button gerechnet. 
+100% der Benutzer gaben an, dass die Bestätigungsnachricht klar und zufriedenstellend war.
 
 ### Implications
 
-[What did you learn from this evaluation and what will you change to improve? Example: "We aim to decrease the drop-out rate by not asking for a birth date. We will re-run this evaluation to measure the impact."]
+Die Evaluation zeigt, dass das Formular und die Bestätigungsnachricht generell gut funktionieren. Einige Benutzerprobleme bei "Arrival" und "Departure" deuten darauf hin, dass kleine Verbesserungen im Bereich der Benutzerführung hilfreich sein könnten. 
 
 ---
