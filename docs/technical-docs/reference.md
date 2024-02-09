@@ -29,7 +29,7 @@ Lana
 
 **Sample output:**
 
-![Home Page](../assets/images/HomePage.png)
+![Home Page](../assets/images/Homepage.png)
 
 ---
 
