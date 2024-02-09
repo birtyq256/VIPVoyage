@@ -147,7 +147,7 @@ def inquiryform_t():
 @app.route('/submit_inquiry_a', methods=['POST'])
 def submit_inquiry_a():
     form = InquiryFormA(request.form)
-    if request.method == 'POST' and form.validate():
+    if request.method == 'POST' :
         new_inquiry = InquiryForm(
             name=form.name.data,
             phone=form.phone.data,
