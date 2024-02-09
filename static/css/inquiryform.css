@@ -1,20 +1,9 @@
 body {
-
-
-
-
-
-
-
-  
     background-image: url('../images/background.jpg'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
     background-attachment: fixed; 
-
-
-
 }
 .site-header {
 background-color: #123F61; 
@@ -30,11 +19,6 @@ width: 100%;
 z-index: 1000; 
 }
 
-
-
-
-
-
 .logo {
 width: 200px; 
 height: auto;
@@ -45,7 +29,6 @@ text-align: center;
 padding: 50px; 
 padding-top: 100px; 
 }
-
 
 .options {
 display: flex;
@@ -76,7 +59,6 @@ border: 1px solid #ccc;
 box-sizing: border-box;
 }
 
-
 .form-wrapper input[type=submit] {
 width: 100%; 
 max-width: 400px; 
@@ -94,9 +76,6 @@ width: 100%;
 max-width: 400px; 
 background-color: #4cae4c;
 }
-
-
-
 
 .form-group {
 display: flex;
