@@ -10,6 +10,14 @@ Rayan
 # App behavior
 {: .no_toc }
 
+<details open markdown="block">
+{: .text-delta }
+<summary>Table of contents</summary>
++ ToC
+{: toc }
+</details>
+
+
 ## Homepage 
 
 ![Homepage](../assets/images/UI_Homepage.png)
@@ -44,10 +52,3 @@ Spalte "Status" (Status der Anfrage): Hier wird der aktuelle Status jeder Anfrag
 Edit Button (Bearbeiten): Dieser Button ermöglicht es dem Benutzer, eine Anfrage zu bearbeiten. Wenn der Benutzer auf diesen Button klickt, wird er zum Formular geführt, in dem er die Details seiner Anfrage ändern kann.
 Delete Button (Löschen): Mit diesem Button kann der Benutzer eine Anfrage aus der Liste löschen.
 
-
-<details open markdown="block">
-{: .text-delta }
-<summary>Table of contents</summary>
-+ ToC
-{: toc }
-</details>

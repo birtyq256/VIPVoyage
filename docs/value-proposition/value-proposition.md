@@ -33,15 +33,3 @@ Die Benutzer der Webanwendung profitieren von einer schnellen Buchungserfahrung.
 
 [![](https://mermaid.ink/img/pako:eNp1kDtvwzAMhP8KwSVLpj4WrW4DtEsGr14UiU7ZSpQrUwGCIP-9cmoHRoFq0ePuPp10QZc8ocHPVLLQuROoQ1kDQVNGTZEyvK-1kZxyEmhJPLzJd-E8KwBNYPcFm7W0gUNRTWLgwdyJi7-lUGkVmU_sCCp1TsF-uF0y2CMZePybXDrsOATYpRwX4Kto7etJLYcRWG7iTHn6j9Ik6TlHO23uzcohskI_xW19TSZHfCJwK6-B5zUSt1jnaNnX77xMoA71gyJ1aOrSU29L0A47uVarLZraszg0mgttsQzeKr2wPWYbfw-vP2iii_g?type=png)](https://mermaid.live/edit#pako:eNp1kDtvwzAMhP8KwSVLpj4WrW4DtEsGr14UiU7ZSpQrUwGCIP-9cmoHRoFq0ePuPp10QZc8ocHPVLLQuROoQ1kDQVNGTZEyvK-1kZxyEmhJPLzJd-E8KwBNYPcFm7W0gUNRTWLgwdyJi7-lUGkVmU_sCCp1TsF-uF0y2CMZePybXDrsOATYpRwX4Kto7etJLYcRWG7iTHn6j9Ik6TlHO23uzcohskI_xW19TSZHfCJwK6-B5zUSt1jnaNnX77xMoA71gyJ1aOrSU29L0A47uVarLZraszg0mgttsQzeKr2wPWYbfw-vP2iii_g)
 
-
-```mermaid
-journey
-    title Customer Journey
-    section Send Inquiry
-      Click 'Send Inquiry' button: 2: Customer
-      Select service on Inquiry Option page: 3: Customer
-    section Fill Form
-      Enter details in Form page: 4: Customer
-    section Confirmation
-      Submit form and receive confirmation: 5: Customer
-```
