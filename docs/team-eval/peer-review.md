@@ -22,15 +22,15 @@ Lana Karout
 
 ### My observation
 
-Wir haben viel zu spät mit der Implementierung begonnen. Es wäre ratsam gewesen, uns von Anfang an langsam heranzutasten.
+Der Beginn unserer Implementierungsphase kam deutlich zu spät. Ein früherer, schrittweiser Einstieg wäre vorteilhafter gewesen. Unerwartet stießen wir auf eine Vielzahl von Programmierfehlern, die viel Zeit für Korrekturen beanspruchten – oft war ich damit beschäftigt, diese Fehler zu beheben.
 
 ### Effect on me
 
-Dies führte zu erheblichem Stress und Druck.
+Dies resultierte in beträchtlichem Stress und erhöhtem Druck während des Projekts.
 
 ### Tip for the future
 
-Beim nächsten Mal würde ich empfehlen, früher zu beginnen und konsistent jede Woche einige Stunden dafür einzuplanen. Außerdem würde ich mich zunächst sorgfältig mit der gesamten Materie befassen, um zu wissen, welche Tools ich nutzen kann.
+Für zukünftige Projekte wäre es ratsam, früher anzufangen und regelmäßig jede Woche Zeit für das Projekt einzuplanen. Zudem empfiehlt es sich, sich im Vorfeld gründlich mit dem Thema auseinanderzusetzen, um eine klare Vorstellung davon zu haben, welche Werkzeuge und Ressourcen zur Verfügung stehen und wie diese effektiv genutzt werden können.
 
 ---
 
