@@ -4,9 +4,9 @@ nav_order: 4
 ---
 
 {: .label }
-[Lana]
+Lana
 
-# [User evaluation]
+# User evaluation
 {: .no_toc }
 
 <details open markdown="block">

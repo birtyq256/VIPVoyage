@@ -26,7 +26,8 @@ Birte
 ## Lana
 
 Contributions
-: UI Designs mit Sketch getstaltet
+: UI Designs mit Sketch gestaltet
+: Ablaufdiagramm
 : Home.html & home.css implementiert
 : InquiryOption.html & Inquiry.css implementiert
 : Pflegen der docs
@@ -34,13 +35,14 @@ Contributions
 ## Rayan
 
 Contributions
-: Joe's first contribution
-: Joe's second contribution
-: ...
+: GitHub eingerichtet
+: Dokumentationsverwaltung und Backend-Entwicklung
+: Login.html & login.css implementiert
+: booking_overview.html
 
 ## Birte
 
 Contributions
-: Joe's first contribution
-: Joe's second contribution
+: 
+: 
 : ...

@@ -45,65 +45,29 @@ Wir haben SQLAlchemy als unser Werkzeug gewählt, weil es eine objektorientierte
 
 Entscheidung getroffen von: https://github.com/birtyq256
 
-## 02: Service Screen
+## 02: WTForms für Frontend-Formulare
 
 Status
 :  Work in progress - **Decided**  - Obsolete
 
 Updated
-: 04-JAN-2024
+: 28-JAN-2024
 
 ### Problem statement
-
-Benutzer, die eine individuelle Buchungsanfrage stellen möchten, benötigen einen klaren und ansprechenden Weg, um ihre Präferenzen und Anforderungen zu kommunizieren. Der Prozess sollte nicht nur funktional sein, sondern auch das hohe Niveau an Exklusivität und Personalisierung widerspiegeln, das VIP Voyage seinen Kunden bieten möchte.
-
-### Decision
-
-Implementierung eines Inquiry Screens mit vier ansprechenden Bildern, die unterschiedliche  Servicekategorien darstellen. Der Benutzer kann eine Kategorie auswählen. Diese visuelle Methode bietet eine benutzerfreundliche Oberfläche, die den Auswahlprozess vereinfacht und gleichzeitig visuell ansprechend ist.
-
-### Regarded options
-
-Dropdown-Menüs:
-Pro: Ermöglicht eine einfache und klare Auswahl von Optionen.
-Con: Bietet nicht die gleiche visuelle Anziehungskraft und kann weniger einladend wirken.
-
-Entscheidung getroffen von: https://github.com/LanaKrt
-
-## 03: Inquiry Form Screen
-
-Status
-: Work in progress - **Decided**  - Obsolete
-
-Updated
-: 04-JAN-2024
-
-### Problem statement
-
-Benutzer, benötigen eine klare und einfache Möglichkeit, ihre Präferenzen und Anforderungen zu kommunizieren. Die Erfahrung sollte das exklusive und personalisierte Niveau an Service vermitteln, das VIP Voyage bietet.
+Für die Einreichung von Buchungsanfragen benötigen wir eine effiziente, sichere und benutzerfreundliche Methode zur Gestaltung von Frontend-Formularen.
 
 ### Decision
+Wir haben uns für die Verwendung von WTForms entschieden, um die Frontend-Formulare für unsere Buchungsanfragen zu gestalten. Dadurch können wir Formulare mit vielfältigen Feldtypen einfach implementieren, die Validierungslogik direkt in unserem Flask-Backend integrieren.
 
-Einführung eines Inquiry Form Screens, der einen klaren und direkten Weg bietet, persönliche Daten und Reisepräferenzen einzugeben. Der Hintergrund des Bildschirms zeigt eine atemberaubende Aussicht auf Mykonos, was die Exklusivität und Attraktivität des Ziels unterstreicht.
+## Regarded Options
 
-## 03: Service Selection Screen
+HTML-Formulare: 
+Pro: Volle Kontrolle über das Markup; keine zusätzlichen Abhängigkeiten
+Con: Manuelle Implementierung von Validierungen; erhöhter Aufwand bei der Sicherheitsabsicherung
 
-Status
-: Work in progress - **Decided**  - Obsolete
+Entscheidung getroffen von: https://github.com/birtyq256
 
-Updated
-: 04-JAN-2024
-
-### Problem statement
-
-Kunden benötigen ein breites Angebot an spezifische Dienstleistungen, die ihren Bedürfnissen entsprechen. Die Darstellung dieser Optionen sollte das hochwertige Angebot und die Vielfalt der Dienstleistungen von VIP Voyage widerspiegeln.
-
-### Decision
-
-Implementierung eines Service Selection Screens mit großen, ansprechenden Bildern für jede Servicekategorie (Unterkunft, Transportmittel, etc.). Dies ermöglicht es den Benutzern, mit einem Blick die verfügbaren Dienstleistungen zu verstehen und ihre Auswahl auf eine ansprechende und interaktive Weise zu treffen.
-
-Entscheidung getroffen von: https://github.com/LanaKrt
-
-## 04: Implementierung eines Login-Systems
+## 03: Implementierung eines Login-Systems
 
 Status
 : Work in progress - **Decided**  - Obsolete
@@ -135,6 +99,65 @@ Entwicklung eines benutzerdefinierten Authentifizierungssystems, das Benutzernam
 + Con: Erhöhter Entwicklungs- und Wartungsaufwand, erfordert sorgfältige Implementierung von Sicherheitsmaßnahmen
 
 Entscheidung getroffen von: https://github.com/rayanbeydoun12
+
+
+## 04: Service Screen
+
+Status
+:  Work in progress - **Decided**  - Obsolete
+
+Updated
+: 04-JAN-2024
+
+### Problem statement
+
+Benutzer, die eine individuelle Buchungsanfrage stellen möchten, benötigen einen klaren und ansprechenden Weg, um ihre Präferenzen und Anforderungen zu kommunizieren. Der Prozess sollte nicht nur funktional sein, sondern auch das hohe Niveau an Exklusivität und Personalisierung widerspiegeln, das VIP Voyage seinen Kunden bieten möchte.
+
+### Decision
+
+Implementierung eines Inquiry Screens mit vier ansprechenden Bildern, die unterschiedliche  Servicekategorien darstellen. Der Benutzer kann eine Kategorie auswählen. Diese visuelle Methode bietet eine benutzerfreundliche Oberfläche, die den Auswahlprozess vereinfacht und gleichzeitig visuell ansprechend ist.
+
+### Regarded options
+
+Dropdown-Menüs:
+Pro: Ermöglicht eine einfache und klare Auswahl von Optionen.
+Con: Bietet nicht die gleiche visuelle Anziehungskraft und kann weniger einladend wirken.
+
+Entscheidung getroffen von: https://github.com/LanaKrt
+
+## 05: Inquiry Form Screen
+
+Status
+: Work in progress - **Decided**  - Obsolete
+
+Updated
+: 04-JAN-2024
+
+### Problem statement
+
+Benutzer, benötigen eine klare und einfache Möglichkeit, ihre Präferenzen und Anforderungen zu kommunizieren. Die Erfahrung sollte das exklusive und personalisierte Niveau an Service vermitteln, das VIP Voyage bietet.
+
+### Decision
+
+Einführung eines Inquiry Form Screens, der einen klaren und direkten Weg bietet, persönliche Daten und Reisepräferenzen einzugeben. Der Hintergrund des Bildschirms zeigt eine atemberaubende Aussicht auf Mykonos, was die Exklusivität und Attraktivität des Ziels unterstreicht.
+
+## 06: Service Selection Screen
+
+Status
+: Work in progress - **Decided**  - Obsolete
+
+Updated
+: 04-JAN-2024
+
+### Problem statement
+
+Kunden benötigen ein breites Angebot an spezifische Dienstleistungen, die ihren Bedürfnissen entsprechen. Die Darstellung dieser Optionen sollte das hochwertige Angebot und die Vielfalt der Dienstleistungen von VIP Voyage widerspiegeln.
+
+### Decision
+
+Implementierung eines Service Selection Screens mit großen, ansprechenden Bildern für jede Servicekategorie (Unterkunft, Transportmittel, etc.). Dies ermöglicht es den Benutzern, mit einem Blick die verfügbaren Dienstleistungen zu verstehen und ihre Auswahl auf eine ansprechende und interaktive Weise zu treffen.
+
+Entscheidung getroffen von: https://github.com/LanaKrt
 
 ---
 

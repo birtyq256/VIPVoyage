@@ -59,15 +59,16 @@ Beim nächsten Mal würde ich mich zunächst sorgfältig mit der gesamten Materi
 
 ### My observation (Wahrnehmung)
 
-[A specific observation, regarding know-how, effectiveness, team work or from another relevant area]
+Ich habe festgestellt, dass es eine Herausforderung war, sich in eine neue Programmiersprache wie Python einzuarbeiten. Es war aber gleichzeitig bereichernd, neues Wissen über Plattformen wie GitHub und Technologien wie HTML und CSS zu erlangen. Ich habe bemerkt, dass ein tiefes Verständnis für diese neuen Werkzeuge und Sprachen zu Beginn des Projekts fehlte, was zu Anfangsschwierigkeiten führte.
 
 ### Effect on me (Wirkung)
 
-[What positive or negative effect did this observation have on the reviewer?]
+Die Hürde am Anfang, sich mit den neuen Technologien vertraut zu machen, war spürbar, denn das erforderte einen erheblichen Zeitaufwand. Die Erfahrung zeigte, dass ein Grundwissen in den verwendeten Tools entscheidend ist, um effektiv arbeiten zu können.
 
 ### Tip for the future (Wunsch)
 
-[What should be changed or strengthened for the point of view of the reviewer? ]
+Ich empfehle, sich frühzeitig mit neuen Technologien auseinanderzusetzen und ausreichend Zeit für den Lernprozess einzuplanen. Eine sorgfältige Planung und ein strategischer Ansatz könnten Zeit sparen und dazu beitragen, dass jedes Teammitglied seine Stärken effektiver einsetzt und die Projektziele effizienter erreicht werden.
+
 
 {: toc }
 
