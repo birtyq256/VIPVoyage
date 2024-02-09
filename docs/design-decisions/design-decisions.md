@@ -37,7 +37,7 @@ Wir haben SQLAlchemy als unser Werkzeug gewählt, weil es eine objektorientierte
 + Plain SQL
 + SQLAlchemy
 
-| Criterion | Plain SQL | SQLAlchemy |
+| Kriterien | Plain SQL | SQLAlchemy |
 | --- | --- | --- |
 | **Fachkenntnisse** | ✔️ Direktes Wissen über SQL wird angewandt. Keine zusätzliche Abstraktionsebene, die gelernt werden muss.| ❌ Lernaufwand, um ORM-Konzepten und SQLAlchemy zu verstehen |
 | **DB Schema-Änderungen** | ❌ müssen manuell durchgeführt und im gesamten Code reflektiert werden. | ✔️ Ermöglicht einfache Schema-Migrationen durch Alembic und objektorientierte Modellierung, was die Wartung und Evolution des Schemas vereinfacht.|
@@ -104,7 +104,7 @@ Implementierung eines Service Selection Screens mit großen, ansprechenden Bilde
 
 Entscheidung getroffen von: https://github.com/LanaKrt
 
-## 04: Implementierung eines einfachen Login-Systems
+## 04: Implementierung eines Login-Systems
 
 Status
 : Work in progress - **Decided**  - Obsolete
@@ -124,10 +124,12 @@ Diese Entscheidung erfüllt die Anforderungen für unseren spezifischen Anwendun
 ### Regarded Options
 
 #### Flask-Login: 
+
 + Pro: Vereinfacht die Implementierung sicherer Authentifizierungssysteme mit Unterstützung für Benutzersitzungen. 
 + Con: Erfordert eine Datenbank zur Speicherung von Benutzerinformationen
 
 #### Eigene Benutzerverwaltung mit Datenbank: 
+
 Entwicklung eines benutzerdefinierten Authentifizierungssystems, das Benutzernamen und Passwörter in einer Datenbank speichert.
 
 + Pro: Vollständige Kontrolle über die Authentifizierung und Benutzerverwaltung
