@@ -99,20 +99,12 @@ def logout():
     return redirect(url_for('home'))
 
 
-@app.route('/booking-overview')
-def booking_overview():
-    if not session.get('admin_logged_in'):
-        flash('Bitte loggen Sie sich zuerst ein.')
-        return redirect(url_for('login'))
-    # hier Logik um Buchungsanfragen aus der Datenbank zu holen
-    booking_requests = []  
-    return render_template('booking_overview.html', booking_requests=booking_requests)
-
 
 @app.route('/overview')
 def overview():
     inquiries = InquiryForm.query.all()
     return render_template('overview.html', inquiries=inquiries)
+
 
 @app.route('/update_status/<int:inquiry_id>', methods=['POST'])
 def update_status(inquiry_id):
