@@ -76,12 +76,12 @@ Ich empfehle, sich frühzeitig mit neuen Technologien auseinanderzusetzen und au
 
 ### My observation (Wahrnehmung)
 
-[A specific observation, regarding know-how, effectiveness, team work or from another relevant area]
+Mir ist aufgefallen, dass unser Team eine hohe Flexibilität und Anpassungsfähigkeit an neue Anforderungen gezeigt hat. Es gab viele unerwartete Herausforderungen, dennoch konnten wir uns schnell neu orientieren und Lösungen finden. Unsere Kommunikation war effizient und konstruktiv, was maßgeblich zu unserem Fortschritt und letztendlich zur erfolgreichen Fertigstellung des Projekts beigetragen hat. Obwohl die Zeit gegen Ende hin etwas knapp wurde, was teilweise auf die parallele Vorbereitung für andere Prüfungen zurückzuführen war, haben wir es geschafft, unsere Ressourcen sinnvoll zu priorisieren und die Deadline einzuhalten.
 
 ### Effect on me (Wirkung)
 
-[What positive or negative effect did this observation have on the reviewer?]
+Diese Flexibilität hat mich motiviert, auch meine eigenen Fähigkeiten weiterzuentwickeln. Unsere Arbeitsweise hat mir neue Perspektiven eröffnet und meine Problemlösungskompetenz gestärkt.
 
 ### Tip for the future (Wunsch)
 
-[What should be changed or strengthened for the point of view of the reviewer? ]
+Für künftige Projekte würde ich empfehlen, einen detaillierten Zeitplan mit klaren Fristen zu erstellen und regelmäßige Fortschrittskontrollen einzuführen. Regelmäßige, kurze Team-Meetings haben uns geholfen die Fortschritte immer im Blick zu behalten und die nächsten Schritte zu planen. Es könnte auch hilfreich sein Tools zu nutzen, um die App Struktur visuell darzustellen oder aber auch Prototypen wie Sketch für den UI-Entwurf zu erstellen.
