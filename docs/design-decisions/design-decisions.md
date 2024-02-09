@@ -45,7 +45,7 @@ Wir haben SQLAlchemy als unser Werkzeug gewählt, weil es eine objektorientierte
 
 Entscheidung getroffen von: https://github.com/birtyq256
 
-## 02: WTForms für Frontend-Formulare
+## 02: WTForms für Formularverarbeitung
 
 Status
 :  Work in progress - **Decided**  - Obsolete
@@ -57,7 +57,7 @@ Updated
 Für die Einreichung von Buchungsanfragen benötigen wir eine effiziente, sichere und benutzerfreundliche Methode zur Gestaltung von Frontend-Formularen.
 
 ### Decision
-Wir haben uns für die Verwendung von WTForms entschieden, um die Frontend-Formulare für unsere Buchungsanfragen zu gestalten. Dadurch können wir Formulare mit vielfältigen Feldtypen einfach implementieren, die Validierungslogik direkt in unserem Flask-Backend integrieren.
+Wir haben uns für die Verwendung von WTForms entschieden, um Formulare leicht zu erstellen, zu validieren und zu verarbeiten. 
 
 ## Regarded Options
 
@@ -67,7 +67,36 @@ Con: Manuelle Implementierung von Validierungen; erhöhter Aufwand bei der Siche
 
 Entscheidung getroffen von: https://github.com/birtyq256
 
-## 03: Implementierung eines Login-Systems
+## 03: Bootstrap für den Anfragen-Übersicht
+
+Status
+: Work in progress - **Decided**  - Obsolete
+
+Updated
+: 06-FEB-2024
+
+### Problem statement
+
+Für die Übersicht der Buchungsanfragen, auf die der Admin zugreifen kann, benötigen wir eine Lösung, eine ansprechende und benutzerfreundliche Oberfläche zu gestalten. Diese Lösung sollte die Konsistenz des Designs gewährleisten und die Anpassung an verschiedene Bildschirmgrößen unterstützen.
+
+### Decision
+
+Wir haben uns für Bootstrap entschieden, weil es uns viele vorgefertigte Designs bietet und uns ermöglicht, unsere Entwicklungszeit zu verkürzen, indem wir auf viele vorgefertigte Designelemente zurückgreifen können, die auf verschiedenen Geräten gut aussehen. Dadurch sparen wir Zeit und können uns auf andere wichtige Aspekte der Anwendungsentwicklung konzentrieren.
+
+### Regarded Options
+
++ Bootstrap: 
+Pro: Schnell und einfach, mit vielen fertigen Design-Features, bietet ein konsistentes Look-and-Feel
+Con: Einschränkungen in der Design-Flexibilität, wenn wir sehr spezifische Designs wollen.
+
++ Nur CSS: 
+Pro: Gibt uns vollständige Kontrolle über das Design
+Con: Höherer Aufwand bei der Entwicklung responsiver Designs; erhöhte Komplexität und Zeitaufwand
+
++ Foundation: 
+Pro: Ähnlich wie Bootstrap mit einem Fokus auf professionelle Anwendung; bietet auch ein umfangreiches Framework  Con: Lernkurve; nicht so bekannt, was zu weniger Community-Unterstützung führen kann
+
+## 04: Implementierung eines Login-Systems
 
 Status
 : Work in progress - **Decided**  - Obsolete
@@ -86,14 +115,11 @@ Diese Entscheidung erfüllt die Anforderungen für unseren spezifischen Anwendun
 
 ### Regarded Options
 
-#### Flask-Login: 
-
+Flask-Login:
 + Pro: Vereinfacht die Implementierung sicherer Authentifizierungssysteme mit Unterstützung für Benutzersitzungen. 
 + Con: Erfordert eine Datenbank zur Speicherung von Benutzerinformationen
 
-#### Eigene Benutzerverwaltung mit Datenbank: 
-
-Entwicklung eines benutzerdefinierten Authentifizierungssystems, das Benutzernamen und Passwörter in einer Datenbank speichert.
+Eigene Benutzerverwaltung mit Datenbank: Entwicklung eines benutzerdefinierten Authentifizierungssystems, das Benutzernamen und Passwörter in einer Datenbank speichert.
 
 + Pro: Vollständige Kontrolle über die Authentifizierung und Benutzerverwaltung
 + Con: Erhöhter Entwicklungs- und Wartungsaufwand, erfordert sorgfältige Implementierung von Sicherheitsmaßnahmen
@@ -101,7 +127,7 @@ Entwicklung eines benutzerdefinierten Authentifizierungssystems, das Benutzernam
 Entscheidung getroffen von: https://github.com/rayanbeydoun12
 
 
-## 04: Service Screen
+## 05: Service Screen
 
 Status
 :  Work in progress - **Decided**  - Obsolete
@@ -125,7 +151,7 @@ Con: Bietet nicht die gleiche visuelle Anziehungskraft und kann weniger einladen
 
 Entscheidung getroffen von: https://github.com/LanaKrt
 
-## 05: Inquiry Form Screen
+## 06: Inquiry Form Screen
 
 Status
 : Work in progress - **Decided**  - Obsolete
@@ -141,7 +167,7 @@ Benutzer, benötigen eine klare und einfache Möglichkeit, ihre Präferenzen und
 
 Einführung eines Inquiry Form Screens, der einen klaren und direkten Weg bietet, persönliche Daten und Reisepräferenzen einzugeben. Der Hintergrund des Bildschirms zeigt eine atemberaubende Aussicht auf Mykonos, was die Exklusivität und Attraktivität des Ziels unterstreicht.
 
-## 06: Service Selection Screen
+## 07: Service Selection Screen
 
 Status
 : Work in progress - **Decided**  - Obsolete

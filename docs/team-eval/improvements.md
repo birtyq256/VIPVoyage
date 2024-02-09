@@ -26,3 +26,6 @@ Wir sollten unsere Zeit effektiv planen, um Deadlines einzuhalten und Stresssitu
 
 ### Gründliche Analyse 
 Wir sollten uns Zeit nehmen, um die Anforderungen und Ziele des Projekts gründlich zu analysieren, um ein besseres Verständnis für die Materie zu entwickeln.
+
+### Kommunikation
+Wir sollten mehr Team-Meetings planen um den Fortschritt zu bewahren und die nächsten Schritte zu planen. Dadurch können Missverständnisse minimiert und die Zusammenarbeit optimiert werden.

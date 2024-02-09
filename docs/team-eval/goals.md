@@ -7,7 +7,7 @@ nav_order: 1
 {: .label }
 Lana
 
-# [Goals achieved and missed]
+# Goals achieved and missed
 {: .no_toc }
 
 <details open markdown="block">

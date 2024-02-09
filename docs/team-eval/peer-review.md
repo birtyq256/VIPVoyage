@@ -13,7 +13,7 @@ Rayan
 {: .label }
 Birte
 
-# [Peer review]
+# Peer review
 {: .no_toc }
 
 <details open markdown="block">
@@ -23,65 +23,48 @@ Birte
 {: toc }
 </details>
 
-## Lana - review 1
+## Lana - review 
 
-### My observation (Wahrnehmung)
+### My observation 
 
 Wir haben viel zu spät mit der Implementierung begonnen. Es wäre ratsam gewesen, uns von Anfang an langsam heranzutasten.
 
-### Effect on me (Wirkung)
+### Effect on me 
 
 Dies führte zu erheblichem Stress und Druck.
 
-### Tip for the future (Wunsch)
+### Tip for the future 
 
-Beim nächsten Mal würde ich empfehlen, früher zu beginnen und konsistent jede Woche einige Stunden dafür einzuplanen.
-
-{: toc }
-
-## Lana - review 2
-
-### My observation (Wahrnehmung)
-
-Ich habe direkt mit der Implementierung begonnen, ohne die Materie genau zu analysieren.
-
-### Effect on me (Wirkung)
-
-Ich habe viel Zeit damit verschwendet, Ergebnisse zu liefern, die nicht besonders hervorstechen.
-
-### Tip for the future (Wunsch)
-
-Beim nächsten Mal würde ich mich zunächst sorgfältig mit der gesamten Materie befassen, um zu wissen, welche Tools ich nutzen kann.
+Beim nächsten Mal würde ich empfehlen, früher zu beginnen und konsistent jede Woche einige Stunden dafür einzuplanen. Außerdem würde ich mich zunächst sorgfältig mit der gesamten Materie befassen, um zu wissen, welche Tools ich nutzen kann.
 
 {: toc }
 
-## Rayan - review 1
+## Rayan - review 
 
-### My observation (Wahrnehmung)
+### My observation 
 
 Ich habe festgestellt, dass es eine Herausforderung war, sich in eine neue Programmiersprache wie Python einzuarbeiten. Es war aber gleichzeitig bereichernd, neues Wissen über Plattformen wie GitHub und Technologien wie HTML und CSS zu erlangen. Ich habe bemerkt, dass ein tiefes Verständnis für diese neuen Werkzeuge und Sprachen zu Beginn des Projekts fehlte, was zu Anfangsschwierigkeiten führte.
 
-### Effect on me (Wirkung)
+### Effect on me 
 
-Die Hürde am Anfang, sich mit den neuen Technologien vertraut zu machen, war spürbar, denn das erforderte einen erheblichen Zeitaufwand. Die Erfahrung zeigte, dass ein Grundwissen in den verwendeten Tools entscheidend ist, um effektiv arbeiten zu können.
+Es war für mich anfangs sehr schwer mich mit den neuen Technologien vertraut zu machen, das erforderte einen erheblichen Zeitaufwand. Die Erfahrung hat mir gezeigt, dass ein Grundwissen in den verwendeten Tools entscheidend ist, um effektiv arbeiten zu können.
 
 ### Tip for the future (Wunsch)
 
-Ich empfehle, sich frühzeitig mit neuen Technologien auseinanderzusetzen und ausreichend Zeit für den Lernprozess einzuplanen. Eine sorgfältige Planung und ein strategischer Ansatz könnten Zeit sparen und dazu beitragen, dass jedes Teammitglied seine Stärken effektiver einsetzt und die Projektziele effizienter erreicht werden.
-
+Ich empfehle für zukünftige Projekte, sich frühzeitig mit neuen Technologien auseinanderzusetzen und ausreichend Zeit für den Lernprozess einzuplanen. Eine sorgfältige Planung und ein strategischer Ansatz könnten Zeit sparen und dazu beitragen, dass jedes Teammitglied seine Stärken effektiver einsetzt und die Projektziele effizienter erreicht werden.
 
 {: toc }
 
-## Birte - review 1
+## Birte - review 
 
-### My observation (Wahrnehmung)
+### My observation 
 
 [A specific observation, regarding know-how, effectiveness, team work or from another relevant area]
 
-### Effect on me (Wirkung)
+### Effect on me 
 
 [What positive or negative effect did this observation have on the reviewer?]
 
-### Tip for the future (Wunsch)
+### Tip for the future 
 
 [What should be changed or strengthened for the point of view of the reviewer? ]
