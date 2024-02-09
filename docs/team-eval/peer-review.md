@@ -15,7 +15,7 @@ nav_order: 3
   {: toc }
 </details>
 
-<span style="color:blue;">Lana</span>
+<span style="color:white; background-color:blue; padding: 3px;">Lana Karout</span>
 {: .label .label-blue }
 
 ## Lana - Review
@@ -34,7 +34,7 @@ Beim nächsten Mal würde ich empfehlen, früher zu beginnen und konsistent jede
 
 ---
 
-<span style="color:blue;">Rayan</span>
+<span style="color:white; background-color:blue; padding: 3px;">Rayan Beydoun</span>
 {: .label .label-blue }
 
 ## Rayan - Review
@@ -53,7 +53,7 @@ Ich empfehle für zukünftige Projekte, sich frühzeitig mit neuen Technologien 
 
 ---
 
-<span style="color:blue;">Birte</span>
+<span style="color:white; background-color:blue; padding: 3px;">Birte Reich</span>
 {: .label .label-blue }
 
 ## Birte - Review
