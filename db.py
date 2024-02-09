@@ -14,6 +14,8 @@ class InquiryForm(db.Model):
     amount = db.Column(db.Integer, nullable=False)
     budget = db.Column(db.String(100), nullable=False)
     requests = db.Column(db.String(200), nullable=True)
+    status = db.Column(db.String(20), nullable=True)  
+
 
 def init_db(app):
     with app.app_context():

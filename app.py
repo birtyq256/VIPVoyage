@@ -29,13 +29,12 @@ class InquiryForm(db.Model):
     phone = db.Column(db.String(20), nullable=False)
     arrival = db.Column(db.String(100), nullable=True)
     departure = db.Column(db.String(100), nullable=True)
-    arrival_time = db.Column(db.String(100), nullable=True)
-    departure_time = db.Column(db.String(100), nullable=True)
     amount = db.Column(db.Integer, nullable=False)
     budget = db.Column(db.String(100), nullable=False)
     requests = db.Column(db.String(200), nullable=True)
+    status = db.Column(db.String(20), nullable=True)  # Neue Spalte für den Status
 
-    def __init__(self, name, phone, arrival, departure, amount, budget, requests):
+    def __init__(self, name, phone, arrival, departure, amount, budget, requests, status=None):
         self.name = name
         self.phone = phone
         self.arrival = arrival
@@ -43,6 +42,8 @@ class InquiryForm(db.Model):
         self.amount = amount
         self.budget = budget
         self.requests = requests
+        self.status = status
+
 
 def create_tables():
     with app.app_context():
@@ -104,10 +105,14 @@ def overview():
 @app.route('/update_status/<int:inquiry_id>', methods=['POST'])
 def update_status(inquiry_id):
     inquiry = InquiryForm.query.get_or_404(inquiry_id)
-    status = request.form['status']
+    status = request.form.get('status')
     inquiry.status = status
     db.session.commit()
     return redirect(url_for('overview'))
+
+
+
+
 
 @app.route('/delete_inquiry/<int:inquiry_id>', methods=['POST'])
 def delete_inquiry(inquiry_id):
@@ -146,7 +151,8 @@ def submit_inquiry_a():
             departure=form.departure.data,
             amount=form.amount.data,
             budget=form.budget.data,
-            requests=form.requests.data
+            requests=form.requests.data,
+            status=form.requests.data
         )
 
         db.session.add(new_inquiry)

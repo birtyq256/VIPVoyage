@@ -1,36 +1,38 @@
+/* overview.css */
+
 body {
-    background-image: url('../images/background.jpg'); 
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-attachment: fixed; 
-    margin: 0;
-    font-family: Arial, sans-serif;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0; /* Zur Entfernung des Standardseitenabstands */
+    padding: 0; /* Zur Entfernung des Standardseitenabstands */
 }
 
 .site-header {
-    background-color: #123F61; 
-    padding: 10px 20px; 
-    display: flex; 
-    align-items: center; 
-    justify-content: space-between; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-    position: fixed; 
-    top: 0; 
-    left: 0; 
-    width: 100%; 
-    z-index: 1000; 
+    background-color: #123F61;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 .logo {
-    width: 200px; 
+    width: 200px;
     height: auto;
 }
 
 .service-container {
-    text-align: center; 
-    padding: 50px; 
-    padding-top: 100px; 
+    text-align: center;
+    padding: 50px;
+    padding-top: 100px;
 }
 
 .options {
@@ -53,18 +55,18 @@ body {
 .form-wrapper input[type=tel],
 .form-wrapper textarea,
 .form-wrapper select {
-    width: 100%; 
-    max-width: 400px; 
+    width: 100%;
+    max-width: 400px;
     padding: 10px;
-    margin: 10px auto; 
+    margin: 10px auto;
     border-radius: 4px;
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
 
 .form-wrapper input[type=submit] {
-    width: 100%; 
-    max-width: 400px; 
+    width: 100%;
+    max-width: 400px;
     margin-top: 20px;
     padding: 20px;
     border: none;
@@ -93,41 +95,34 @@ body {
     margin-right: 0;
 }
 
+/* Stil für die Übersichtstabelle */
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 50px;
+    margin-top: 20px; /* Abstand zwischen der Überschrift und der Tabelle */
 }
 
 th, td {
-    padding: 8px;
+    padding: 10px;
     text-align: left;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #ddd; /* Trennlinie zwischen den Zeilen */
 }
 
 th {
-    background-color: #f2f2f2;
-    color: #333;
+    background-color: #f2f2f2; /* Hintergrundfarbe für Überschriften */
 }
 
-td {
-    background-color: #fff;
-}
-
-select {
-    padding: 6px;
-    border-radius: 4px;
+tr:hover {
+    background-color: #f5f5f5; /* Hervorhebung beim Hovern über eine Zeile */
 }
 
 button {
-    padding: 6px 12px;
-    border: none;
-    border-radius: 4px;
     cursor: pointer;
-    background-color: #dc3545;
-    color: white;
+    background-color: transparent;
+    border: none;
+    color: #123F61;
 }
 
 button:hover {
-    background-color: #c82333;
+    text-decoration: underline; /* Unterstreichen beim Hovern über den Button */
 }
