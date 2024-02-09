@@ -38,7 +38,7 @@ Matr.-Nr.
 ### Birte Reich
 
 Aufgabe
-:  Datenbankmanagement
+:  Datenbankmanagement & Logik
 
 Matr.-Nr.
 : 77211919569
