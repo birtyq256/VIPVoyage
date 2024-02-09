@@ -29,7 +29,24 @@ Lana
 
 **Sample output:**
 
-![Home Page](../assets/images/Home-Page.png)
+![Home Page](../assets/images/HomePage.png)
+
+---
+
+## Login
+
+### `login()`
+
+**Route:** `/login`
+
+**Methods:** `GET`, `POST`
+
+**Purpose:** Renders the login page and processes login attempts. On successful login, redirects to the booking overview page. On failure, flashes an error message.
+
+**Sample output:**
+
+![Login Page](../assets/images/LoginPage.png)
+
 
 ---
 
@@ -45,11 +62,11 @@ Lana
 
 **Sample output:**
 
-![Inquiry Option Page](../assets/images/InquiryOption-Page.png)
+![Inquiry Option Page](../assets/images/InquiryOption.png)
 
 ---
 
-## Inquiry Form (Type A)
+## Inquiry Form (Accommodation)
 
 ### `inquiryform_a()`
 
@@ -57,7 +74,7 @@ Lana
 
 **Methods:** `GET`
 
-**Purpose:** Renders the inquiry form type Accommodation.
+**Purpose:** Renders the inquiry form Accommodation.
 
 **Sample output:**
 
@@ -65,7 +82,7 @@ Lana
 
 ---
 
-## Inquiry Form (Type T)
+## Inquiry Form (Transportation)
 
 ### `inquiryform_t()`
 
@@ -73,6 +90,6 @@ Lana
 
 **Methods:** `GET`
 
-**Purpose:** Renders the inquiry form type Transportation.
+**Purpose:** Renders the inquiry form Transportation.
 
 **Sample output:**
