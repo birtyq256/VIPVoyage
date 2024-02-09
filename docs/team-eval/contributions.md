@@ -43,6 +43,7 @@ Contributions
 ## Birte
 
 Contributions
-: 
-: 
-: ...
+: inquiryform.css , thankyou.css implementiert 
+: inquiryform_a.html, inquiryform_t.html implementiert
+: db.py, forms.py implementiert 
+: app.py Anpassungen

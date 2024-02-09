@@ -106,6 +106,10 @@ def overview():
     return render_template('overview.html', inquiries=inquiries)
 
 
+
+
+
+
 @app.route('/update_status/<int:inquiry_id>', methods=['POST'])
 def update_status(inquiry_id):
     inquiry = InquiryForm.query.get_or_404(inquiry_id)
