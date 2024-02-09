@@ -34,6 +34,8 @@ class InquiryForm(db.Model):
     amount = db.Column(db.Integer, nullable=False)
     budget = db.Column(db.String(100), nullable=False)
     requests = db.Column(db.String(200), nullable=True)
+    status = db.Column(db.String(20), nullable=True)  
+
 
     def __init__(self, name, phone, arrival, departure, amount, budget, requests):
         self.name = name
@@ -43,6 +45,7 @@ class InquiryForm(db.Model):
         self.amount = amount
         self.budget = budget
         self.requests = requests
+        self.status = 'new'
 
 def create_tables():
     with app.app_context():
@@ -57,6 +60,8 @@ class InquiryFormA(Form):
     amount = IntegerField('Amount of people', [validators.NumberRange(min=1)])
     budget = StringField('Budget', [validators.Length(min=1, max=100)])
     requests = StringField('Special Requests', [validators.Length(max=200)])
+    status = StringField('Status', [validators.Length(max=20)])
+
 
 class InquiryFormT(Form):
     name = StringField('Name', [validators.Length(min=1, max=100)])
@@ -68,6 +73,8 @@ class InquiryFormT(Form):
     amount = IntegerField('Amount of people', [validators.NumberRange(min=1)])
     budget = StringField('Budget', [validators.Length(min=1, max=100)])
     requests = StringField('Special Requests', [validators.Length(max=200)])
+    status = StringField('Status', [validators.Length(max=20)])
+
 
 
 @app.route('/')
@@ -85,6 +92,12 @@ def login():
         else:
             flash('Falscher Benutzername oder Passwort. Bitte versuchen Sie es erneut.')
     return render_template('login.html')
+
+@app.route('/logout', methods=['GET'], endpoint='logout_get')
+def logout():
+    session.pop('admin_logged_in', None)
+    return redirect(url_for('home'))
+
 
 @app.route('/booking-overview')
 def booking_overview():
@@ -117,11 +130,7 @@ def delete_inquiry(inquiry_id):
     return redirect(url_for('overview'))
 
 
-@app.route('/logout')
-def logout():
-    session.pop('admin_logged_in', None)
-    flash('Sie wurden erfolgreich ausgeloggt.')
-    return redirect(url_for('home'))
+
 
 @app.route('/inquiryoption')
 def inquiry_option():
